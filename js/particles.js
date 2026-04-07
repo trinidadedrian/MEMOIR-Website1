@@ -18,15 +18,14 @@ const PARTICLE_COUNT = 15;
 function createParticle() {
   return {
     x: Math.random() * window.innerWidth,
-    y: canvas.height + 20, // spawn from the bottom
+    y: canvas.height + 20, 
     size: Math.random() * 45 + 10,
-    speedY: -(0.8 + Math.random() * 1.4), // move upward
-    speedX: 0.2 + Math.random() * 0.3, // move rightward
+    speedY: -(0.8 + Math.random() * 1.4),
+    speedX: 0.2 + Math.random() * 0.3, 
     drift: (Math.random() - 0.5) * 0.25,
     angle: Math.random() * Math.PI * 2,
     angularSpeed: (Math.random() - 0.5) * 0.01,
     opacity: 0.8 + Math.random() * 0.4,
-    // Lower max fade speed so particles can reach lower on screen
     fadeSpeed: 0.001 + Math.random() * 0.002,
     wobblePhase: Math.random() * Math.PI * 2,
     wobbleSpeed: 0.008 + Math.random() * 0.01,
@@ -49,12 +48,12 @@ function animate() {
       return;
     }
 
-    // Drift + gentle sway
+    // swayinh and drift
     p.y += p.speedY;
     p.x += p.speedX + p.drift + Math.sin(p.wobblePhase) * 0.35;
     p.wobblePhase += p.wobbleSpeed;
 
-    // Rotate like a leaf tumbling in the air
+    // rotation
     p.angle += p.angularSpeed;
 
     ctx.save();
@@ -66,7 +65,7 @@ function animate() {
     ctx.drawImage(particleImage, -p.size / 2, -p.size / 2, p.size, p.size);
     ctx.restore();
 
-    // Wrap particles around so they continually float
+    // floating 
     if (p.x < -80) p.x = canvas.width + 80;
     if (p.x > canvas.width + 80) p.x = -80;
     if (p.y > canvas.height + 80) p.y = -80;
