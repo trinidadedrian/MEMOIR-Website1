@@ -65,7 +65,7 @@
 html,
 body {
 	height: 100%;
-	overflow: hidden; /* JS controls scroll */
+	overflow: hidden; 
 	scroll-snap-type: y mandatory;
 	scroll-behavior: smooth;
 }
@@ -378,7 +378,7 @@ section {
 .download-btn__image,
 .download-btn__hover {
 	position: absolute;
-	inset: 0.2rem; /* keeps the inner media from touching the button's rounded corners */
+	inset: 0.2rem; 
 	width: calc(100% - 0.2rem);
 	height: calc(100% - 0.2rem);
 	object-fit: cover;
@@ -925,7 +925,7 @@ button:disabled {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	border: 10px solid #e6fffe; /* thicker orange border */
+	border: 10px solid #e6fffe; 
 	border-radius: 1rem;
 	overflow: hidden;
 	background: rgba(0, 0, 0, 0.5);
