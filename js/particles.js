@@ -40,10 +40,10 @@ function animate() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   particles.forEach((p) => {
-    // Fade out over time (random per particle)
+    // Fade out over timeeeee
     p.opacity -= p.fadeSpeed;
     if (p.opacity <= 0) {
-      // Immediately respawn from the top
+      // RESPAWNER
       Object.assign(p, createParticle());
       return;
     }
