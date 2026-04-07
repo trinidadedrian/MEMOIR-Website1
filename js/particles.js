@@ -10,7 +10,7 @@ resizeCanvas();
 window.addEventListener("resize", resizeCanvas);
 
 const particleImage = new Image();
-particleImage.src = "../assets/partikoil.png";
+particleImage.src = "assets/partikoil.png";
 
 const particles = [];
 const PARTICLE_COUNT = 15;
