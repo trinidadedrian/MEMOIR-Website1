@@ -35,5 +35,5 @@ window.addEventListener("wheel", e => {
   e.deltaY > 0 ? goToSection(current + 1) : goToSection(current - 1);
 });
 
-// Ensure correct state if user loads mid-page
+
 setActiveScrollSpy(current);
