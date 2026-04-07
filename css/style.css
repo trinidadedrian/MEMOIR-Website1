@@ -349,7 +349,7 @@ section {
 /* Download section button + hover preview */
 .download-btn {
 	position: absolute;
-	top: 85%;
+	top: 88%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: inline-block;
@@ -367,7 +367,7 @@ section {
 
 .download-btn:hover {
 	position: absolute;
-	top: 85%;
+	top: 88%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: inline-block;
