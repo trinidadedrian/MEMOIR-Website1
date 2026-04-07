@@ -271,7 +271,7 @@ nav a:hover {
 /*#region SECTIONS SCROLL LOCK*/
 section {
 	height: 100vh;
-	padding: 120px 2rem 2rem; /* TOP padding = header height + spacing */
+	padding: 120px 2rem 2rem; 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
