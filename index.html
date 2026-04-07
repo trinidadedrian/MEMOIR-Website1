@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Memoir</title>
+  <link rel="icon" type="image/x-icon" href="assets/Favicon/memoirlogo.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/scroll-lock.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+
+
+<body>
+
+
+  <header>
+
+    <!--HOOMEEEEEE SECTION-->
+    <h1 class="site-logo"><img src="assets/memoirword.png" alt="MEMOIR logo"></h1>
+    <nav>
+      <a data-target="home">Home</a>
+      <a data-target="overview">Overview</a>
+      <a data-target="characters">Characters</a>
+      <a data-target="gameplay">Gameplay</a>
+      <a data-target="media">Media</a>
+      <a data-target="download" class="play-btn" aria-label="Play"></a>
+
+    </nav>
+  </header>
+
+  <!-- Scroll spy (left side) -->
+  <div class="scroll-spy" aria-label="Section navigation">
+    <button class="scroll-spy__item active" data-target="home" aria-label="Home"></button>
+    <button class="scroll-spy__item" data-target="overview" aria-label="Overview"></button>
+    <button class="scroll-spy__item" data-target="characters" aria-label="Characters"></button>
+    <button class="scroll-spy__item" data-target="gameplay" aria-label="Gameplay"></button>
+    <button class="scroll-spy__item" data-target="gameplay1" aria-label="Gameplay"></button>
+    <button class="scroll-spy__item" data-target="media" aria-label="Media"></button>
+    <button class="scroll-spy__item" data-target="download" aria-label="Download"></button>
+  </div>
+
+  <!--HOMEEEE -->
+  <section id="home">
+
+    <div class="home-text">
+      <h3>Confront the past
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or
+        be buried underneath it</h3>
+    </div>
+    <div class="home-links">
+      <a data-target="overview" class="explore-link">Explore</a>
+      <a href="https://youtu.be/-4XI5OuBUmk" target="_blank" class="teaser-link">Watch Teaser Trailer</a>
+    </div>
+
+    <div class="play-button">
+      <a data-target="download" class="home-play" aria-label="Play"></a>
+    </div>
+
+
+    <video autoplay muted loop id="homepage-video">
+      <source src="assets/homepage.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+
+
+
+    <!--<img src="assets/edward.PNG" alt="Home Image">
+   <div>
+     <h2><img src="assets/memoirword.png" alt="MEMOIR"></h2>
+     <p>Lorem ipsum dolor sit amet,
+       consectetur adipiscing elit,sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation 
+       ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+       Duis aute irure reprehenderit in voluptate velit esse 
+       cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+       obcaecat cupiditat non proident, sunt in culpa qui officia 
+       
+      anim id est laborum</p>
+     </div> -->
+  </section>
+  <!--#endregion Home-->
+
+  <!--OVERVIEW SECTION-->
+  <section id="overview">
+    <p class="overview-title fade-in">Game Overview</p>
+    <div>
+      <img src="/assets/overview/OVERVIEW BOXES.png" class="overviewpage fade-in">
+    </div>
+
+
+    <div class="overview-text fade-in">
+      <div class="fade-in">
+        <h5>
+          Moving out is pretty straightforward, or is it really that simple? <br><br>
+
+          Rikka’s outgrown her old shabby apartment and it’s time to move out, the cramped space, the chipping walls,
+          and the faint smell of old flooring has all played a part of who she is today.
+        </h5>
+      </div>
+      <div class="fade-in">
+        <h5><br>
+          But something seems amiss,
+          fragments of the past flash through her mind as the days go by, an uneasy feeling fills the air in her
+          apartment,
+          a feeling you can’t ignore forever, a feeling that she must unravel before she can truly leave the apartment.
+        </h5>
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+  <!--CHARACTERS SECTION-->
+  <section id="characters">
+
+
+    <p class="character-title fade-in">Characters</p>
+
+
+    <div class="characters-container">
+      <!-- Character Display (Left) -->
+      <div class="character-display fade-in">
+        <img id="character-image" src="/assets/characters/transparent w border.png" class="character-image"
+          alt="Character">
+      </div>
+
+      <!-- Character Info (Right) -->
+
+      <div class="character-info">
+
+        <!-- Character Selector Icons (Horizontal) -->
+
+        <div class="character-selector">
+          <button class="character-icon active" data-character="rikka" data-name="RIKKA"
+            data-image="/assets/characters/transparent w border.png" data-description="A seemingly normal lady who needs to move out of her apartment, strangely enough she has an 
+            unclear memory of her life events a few weeks before moving out. She also experiences bizarre dreams and 
+            sometimes realistically vivid nightmares." aria-label="Rikka">
+            <img src="/assets/characters/rikka icon.png" alt="Rikka">
+          </button>
+
+          <button class="character-icon" data-character="???" data-name="???" data-image="/assets/characters/sahurs.png"
+            data-description="We &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;know &emsp;&emsp;&emsp;
+            what &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;you &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;did, &emsp;&emsp;&emsp;Rikka."
+            aria-label="???">
+            <img src="/assets/characters/blank icon.png" alt="Sahur">
+          </button>
+
+          <button class="character-icon" data-character="char3" data-name="CHARACTER 3"
+            data-image="/assets/characters/sahurs.png" data-description="Character description goes here."
+            aria-label="Character 3">
+            <img src="/assets/characters/blank icon.png" alt="Character 3">
+          </button>
+
+          <button class="character-icon" data-character="char4" data-name="CHARACTER 4"
+            data-image="/assets/characters/sahurs.png" data-description="Character description goes here."
+            aria-label="Character 4">
+            <img src="/assets/characters/blank icon.png" alt="Character 4">
+          </button>
+        </div>
+
+
+
+        <!-- Character Text Box -->
+        <div class="character-text-box">
+          <img src="/assets/characters/characters text box.png" class="text-box-bg" alt="Text Box Background">
+          <div class="character-info-content">
+            <h3 id="character-name" class="fade-in-stagger">RIKKA</h3>
+            <h5 id="character-description" class="fade-in-stagger">A seemingly normal lady who needs to move out of her
+              apartment, strangely
+              enough she has an unclear memory of her life events a few weeks before moving out. She also experiences
+              bizarre dreams and sometimes realistically vivid nightmares.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--CDOWNLOAD-->
+  <section id="gameplay">
+
+  
+<!-- 
+    <h5 class="gameplay-text fade-in-stagger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Help Rikka move out of her
+      apartment. In the day, Rikka packs up a section of her apartment to
+      prepare to move out. Departing from your former home however, is not as easy and as fast when you’re alone.
+      Rikka has a mountain of furniture and items, she might need a few days to fully organize her belongings.</h5>
+
+    <h5 class="gameplay-text2 fade-in-stagger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Packing up takes time, so
+      much time in fact that Rikka
+      takes all day to finish up a section of her home. Each day after packing up,
+      Rikka discovers an item that might seem familiar, these items hold a clue to unveiling Rikka’s mysteriously
+      forgotten past.</h5>
+-->
+    <video autoplay muted loop id="gameplay-video" class="fade-in">
+      <source src="assets/gameplay/david.webm" type="video/mp4">
+    </video>
+
+  </section>
+
+  <section id="gameplay1">
+
+    <div id="gameplay-boxes">
+      <img src="/assets/gameplay/dayvid.webm">
+    </div>
+<!-- 
+    <h5 class="gameplay-text fade-in-stagger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Night approaches and
+      Rikka’s quite tired from all that organizing. It’s time to go to sleep.
+      Rikka dreams every night and those dreams always turn into nightmares. These nightmares reveal Rikka’s
+      uncomfortable past and is always related to the item she discovers the day prior.
+    </h5>
+
+    <h5 class="gameplay-text2 fade-in-stagger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In her nightmares, an
+      entity made up of Rikka’s unresolved traumas manifest. This entity takes on different forms and chases Rikka in
+      her nightmares. You must help her escape the entity to ultimately wake her up from her slumber.
+      Rikka will succumb to her traumas if she gets caught by the ominous entity. </h5>
+-->
+
+
+    <video autoplay muted loop id="gameplay-video" class="fade-in">
+      <source src="assets/gameplay/nightvid.webm" type="video/mp4">
+    </video>
+
+  </section>
+
+
+  </section>
+
+  <section id="media">
+    <div class="gallery-container">
+      <p class="gallery-title fade-in">Gallery</p>
+
+      <div class="gallery-wrapper">
+        <!-- Main Display (Left) -->
+        <div class="gallery-main">
+          <div class="main-image-wrapper">
+            <img id="gallery-main-image" src="/assets/s1.png" alt="Gallery Main Image" class="main-image">
+
+          </div>
+        </div>
+
+        <!-- Thumbnails Grid (Right) -->
+        <div class="gallery-thumbnails">
+          <div class="thumbnails-grid">
+            <button class="thumbnail active" data-index="0" aria-label="Image 1">
+              <img src="/assets/s1.png" alt="Thumbnail 1">
+            </button>
+            <button class="thumbnail" data-index="1" aria-label="Image 2">
+              <img src="/assets/s2.png" alt="Thumbnail 2">
+            </button>
+            <button class="thumbnail" data-index="2" aria-label="Image 3">
+              <img src="/assets/s3.png" alt="Thumbnail 3">
+            </button>
+            <button class="thumbnail" data-index="3" aria-label="Image 4">
+              <img src="/assets/s4.png" alt="Thumbnail 4">
+            </button>
+            <button class="thumbnail" data-index="4" aria-label="Image 5">
+              <img src="/assets/s5.png" alt="Thumbnail 5">
+            </button>
+            <button class="thumbnail" data-index="5" aria-label="Image 6">
+              <img src="/assets/s6.png" alt="Thumbnail 6">
+            </button>
+            <button class="thumbnail" data-index="6" aria-label="Image 7">
+              <img src="/assets/s7.png" alt="Thumbnail 7">
+            </button>
+            <button class="thumbnail" data-index="7" aria-label="Image 8">
+              <img src="/assets/s8.png" alt="Thumbnail 8">
+            </button>
+            <button class="thumbnail" data-index="8" aria-label="Image 9">
+              <img src="/assets/s9.png" alt="Thumbnail 9">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pagination Dots -->
+      <div class="pagination">
+        <button class="dot active" data-index="0" aria-label="Go to image 1"></button>
+        <button class="dot" data-index="1" aria-label="Go to image 2"></button>
+        <button class="dot" data-index="2" aria-label="Go to image 3"></button>
+        <button class="dot" data-index="3" aria-label="Go to image 4"></button>
+        <button class="dot" data-index="4" aria-label="Go to image 5"></button>
+        <button class="dot" data-index="5" aria-label="Go to image 6"></button>
+        <button class="dot" data-index="6" aria-label="Go to image 7"></button>
+        <button class="dot" data-index="7" aria-label="Go to image 8"></button>
+        <button class="dot" data-index="8" aria-label="Go to image 9"></button>
+      </div>
+    </div>
+  </section>
+
+
+  <!--CDOWNLOAD-->
+  <section id="download">
+    <a href="https://raticalazey.itch.io/memoir" target="_blank" class="download-btn" aria-label="Download Memoir">
+      <img src="assets/download.png" alt="Download" class="download-btn__image">
+      <video class="download-btn__hover" muted autoplay loop playsinline preload="metadata">
+        <source src="assets/blankdl.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+    </a>
+
+    <video autoplay muted loop id="download-page-video">
+      <source src="assets/download page video.mp4" type="video/mp4">
+
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- PARTICLES -->
+  <div class="particles"></div>
+  <canvas id="particles"></canvas>
+
+  <script src="js/particles.js" defer></script>
+
+
+</body>
+
+</html>
